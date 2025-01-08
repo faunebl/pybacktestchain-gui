@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pybacktestchain_gui"
+version = "0.0.0"
+description = "A nice GUI addition to the pybacktestchain module, project for M2 203 python course"
+authors = ["Faune Blanchard"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
