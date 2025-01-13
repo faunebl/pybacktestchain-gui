@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#others 
+blockchain/
+backtests/
+
 # C extensions
 *.so
 
