@@ -5,6 +5,12 @@ import requests
 # function to retrieve the tickers dataframe
 # 
 def get_tickers() -> pl.DataFrame:
+    """function to retrieve the tickers dataframe
+
+    Returns:
+        pl.DataFrame: a dataframe with all of the nasdaq tickers with a non null market cap and IPO year
+        column names : 'symbol', 'name', 'volume', 'marketCap', 'ipoyear', 'country', 'industry', 'sector'
+    """    
     headers = {
         'authority': 'api.nasdaq.com',
         'accept': 'application/json, text/plain, */*',
